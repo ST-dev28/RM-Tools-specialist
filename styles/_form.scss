@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Nunito Sans", "Kumbh Sans", sans-serif;
+    color: $primary;
+    position: relative;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.policy{
+    text-decoration:underline;
+}
+
+label {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: white;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input {
+    padding: 8px 24px;
+    border-radius: 30px;
+    background-color: white;
+    color: $primary;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+.btn {
+    color: white;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: $btn;
+    padding: 16px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+}
